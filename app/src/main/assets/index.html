@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>My Study Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="container">
+        <h1>My Study Planner</h1>
+        <p>Plan your day, one task at a time.</p>
+
+        <form id="task-form">
+            <input
+                id="task-input"
+                type="text"
+                placeholder="Enter a study task"
+                aria-label="Study task"
+                required
+            >
+            <button type="submit">Add Task</button>
+        </form>
+
+        <p id="task-count">Tasks: 0</p>
+        <ul id="task-list"></ul>
+    </main>
+</body>
+</html>
